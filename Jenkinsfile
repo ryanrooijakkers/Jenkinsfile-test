@@ -1,9 +1,7 @@
 // sh voor Linux en bat voor windows
 
 pipeline {
-    agent {
-        any
-    }
+    agent any
 
     stages {
         stage('Build') {
